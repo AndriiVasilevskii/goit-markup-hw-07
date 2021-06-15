@@ -1,1 +1,14 @@
+// BASE
+@import "./base/common";
+@import "./base/container";
+
+//UTILS
 @import "./utils/variables";
+@import "./utils/visually-hidden";
+
+// COMPONENTS
+@import "./components/modal-btn";
+@import "./components/social-team-links.scss";
+
+// LAYOUT
+

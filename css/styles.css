@@ -1,4 +1,4 @@
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -18,16 +18,16 @@ ol {
 
 img {
   display: block;
-}
+} */
 
-.container {
+/* .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
@@ -38,27 +38,27 @@ img {
   overflow: hidden;
 }
 
-/* :root {
+:root {
   --accent-color: #2196f3;
   --grey-color: #757575;
   --white-color: #ffffff;
   --footer-font-color: rgba(255, 255, 255, 0.6);
   --bg-color: #f5f4fa;
   --animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-} */
+}
 
 body {
   font-family: Roboto, sans-serif;
   color: #212121;
-}
+} */
 
-.list {
+/* .list {
   list-style: none;
 }
 
 .link {
   text-decoration: none;
-}
+} */
 
 /* ================HEADER================ */
 .header {
@@ -216,26 +216,6 @@ body {
   color: var(--white-color);
 }
 
-.modal-btn {
-  padding: 10px 32px;
-  font-family: Roboto, sans-serif;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  color: var(--white-color);
-  background: var(--accent-color);
-  cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border: 0;
-  border-radius: 4px;
-  transition: 250ms var(--animation-timing-function);
-}
-
-.modal-btn:hover,
-.modal-btn:focus {
-  background: #188ce8;
-}
 
 /* ===================END TITLE================ */
 
@@ -401,41 +381,6 @@ body {
 
 /* ===================SOCIAL============== */
 
-.social-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 16px;
-}
-
-/* component */
-.social-list-icon {
-  fill: #afb1b8;
-  transition: 250ms var(--animation-timing-function);
-}
-
-.social-list-link {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  transition: 250ms var(--animation-timing-function);
-}
-
-.social-list-link:hover,
-.social-list-link:focus {
-  background-color: var(--accent-color);
-}
-
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: var(--white-color);
-}
-
 /* ===================END SOCIAL=========== */
 
 /* ===================END TEAM============== */
@@ -490,7 +435,6 @@ body {
 .clients-list-link {
   width: 100%;
   height: 100%;
-  /* display: block; */
   display: flex;
   justify-content: center;
   align-items: center;

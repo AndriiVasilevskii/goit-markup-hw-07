@@ -1,9 +1,14 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,AAAA,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,CAAC,CAAC;EACA,UAAU,EAAE,CAAC;EACb,aAAa,EAAE,CAAC;CACjB;;AAED,AAAA,EAAE;AACF,EAAE,CAAC;EACD,UAAU,EAAE,CAAC;EACb,aAAa,EAAE,CAAC;EAChB,YAAY,EAAE,CAAC;CAChB;;AAED,AAAA,GAAG,CAAC;EACF,OAAO,EAAE,KAAK;CACf;;AAED,AAAA,KAAK,CAAC;EACJ,UAAU,EAAE,IAAI;CACjB;;AAED,AAAA,KAAK,CAAC;EACJ,eAAe,EAAE,IAAI;CACtB;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,kBAAkB;EAC/B,KAAK,EAAE,OAAO;CACf;;ACjCD,AAAA,UAAU,CAAC;EACP,KAAK,EAAE,MAAM;EACb,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;EACnB,MAAM,EAAE,MAAM;CACf;;ACLH,AAAA,KAAK,CAAC;EACF,cAAc,CAAA,QAAC;EACf,YAAY,CAAA,QAAC;EACb,aAAa,CAAA,QAAC;EACd,mBAAmB,CAAA,yBAAC;EACpB,UAAU,CAAA,QAAC;EACX,2BAA2B,CAAA,6BAAC;CAC7B;;ACPH,AAAA,gBAAgB,CAAC;EACb,QAAQ,EAAE,mBAAmB;EAC7B,IAAI,EAAE,qBAAqB;EAAE,cAAc;EAC3C,IAAI,EAAE,wBAAwB;EAC9B,OAAO,EAAE,YAAY;EACrB,MAAM,EAAE,YAAY;EACpB,MAAM,EAAE,cAAc;EACtB,KAAK,EAAE,cAAc;EACrB,QAAQ,EAAE,MAAM;CACjB",
     "sources": [
         "../sass/main.scss",
-        "../sass/utils/_variables.scss"
+        "../sass/base/_common.scss",
+        "../sass/base/_container.scss",
+        "../sass/utils/_variables.scss",
+        "../sass/utils/_visually-hidden.scss",
+        "../sass/components/_modal-btn.scss",
+        "../sass/components/social-team-links.scss"
     ],
     "names": [],
     "file": "main.css"
