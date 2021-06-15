@@ -26,9 +26,8 @@
   border-radius: 50%;
   cursor: pointer;
   padding: 0;
-}
-
-.modal-close-btn:hover,
-.modal-close-btn:focus {
-  fill: var(--accent-color);
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
 }

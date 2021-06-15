@@ -38,28 +38,25 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    transition: 250ms var(--animation-timing-function);
+  }
 }
 
 .social-icon {
   fill: var(--white-color);
-}
-
-.social-icon-link:hover,
-.social-icon-link:focus {
-  background-color: var(--accent-color);
-  transition: 250ms var(--animation-timing-function);
+  .social-icon-link:hover &,
+  .social-icon-link:focus & {
+    fill: var(--white-color);
+    transition: 250ms var(--animation-timing-function);
+  }
 }
 
 .social-icon-list-item {
   margin-right: 10px;
-}
-
-.social-icon-list-item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.social-icon-link:hover .social-icon,
-.social-icon-link:focus .social-icon {
-  fill: var(--white-color);
-  transition: 250ms var(--animation-timing-function);
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }

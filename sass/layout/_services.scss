@@ -23,12 +23,11 @@
   background: rgba(33, 150, 243, 0.9);
   transform: translateY(101%);
   transition: transform 250ms var(--animation-timing-function);
-}
-
-.services-link-wrapper:hover .services-discription,
-.services-link-wrapper:focus .services-discription {
-  transform: translateY(0%);
-  transition: 250ms var(--animation-timing-function);
+  .services-link-wrapper:hover &,
+  .services-link-wrapper:focus & {
+    transform: translateY(0%);
+    transition: 250ms var(--animation-timing-function);
+  }
 }
 
 .services-img-list {
@@ -42,11 +41,10 @@
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
-}
-
-.services-img-item:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  &:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 
 .services-about {

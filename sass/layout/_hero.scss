@@ -42,9 +42,8 @@
   border: 0;
   border-radius: 4px;
   transition: 250ms var(--animation-timing-function);
-}
-
-.modal-btn:hover,
-.modal-btn:focus {
-  background: #188ce8;
+  &:hover,
+  &:focus {
+    background: #188ce8;
+  }
 }

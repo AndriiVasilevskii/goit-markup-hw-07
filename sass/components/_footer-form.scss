@@ -38,15 +38,14 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   cursor: pointer;
+  &:focus,
+  &:hover {
+    background-color: #188ce8;
+    transition: 250ms var(--animation-timing-function);
+  }
 }
 
 .subscription {
   margin-left: 10px;
   fill: currentColor;
-}
-
-.telegram-btn:focus,
-.telegram-btn:hover {
-  background-color: #188ce8;
-  transition: 250ms var(--animation-timing-function);
 }

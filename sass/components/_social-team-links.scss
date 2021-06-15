@@ -11,6 +11,10 @@
 .social-list-icon {
   fill: #afb1b8;
   transition: 250ms var(--animation-timing-function);
+    .social-list-link:hover &,
+    .social-list-link:focus & {
+    fill: var(--white-color);
+  }
 }
 
 .social-list-link {
@@ -21,14 +25,12 @@
   height: 44px;
   border-radius: 50%;
   transition: 250ms var(--animation-timing-function);
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
-  background-color: var(--accent-color);
-}
 
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: var(--white-color);
-}
+
+
