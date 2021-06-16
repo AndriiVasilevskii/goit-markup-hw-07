@@ -13,6 +13,11 @@
   transition: 250ms var(--animation-timing-function);
 }
 
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: var(--white-color);
+}
+
 .social-list-link {
   display: inline-flex;
   justify-content: center;
@@ -23,13 +28,7 @@
   transition: 250ms var(--animation-timing-function);
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
+.social-list-link:hover, .social-list-link:focus {
   background-color: var(--accent-color);
-}
-
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: var(--white-color);
 }
 /*# sourceMappingURL=social-team-links.css.map */

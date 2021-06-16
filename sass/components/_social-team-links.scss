@@ -11,8 +11,9 @@
 .social-list-icon {
   fill: #afb1b8;
   transition: 250ms var(--animation-timing-function);
-    .social-list-link:hover &,
-    .social-list-link:focus & {
+
+  .social-list-link:hover &,
+  .social-list-link:focus & {
     fill: var(--white-color);
   }
 }
@@ -25,12 +26,9 @@
   height: 44px;
   border-radius: 50%;
   transition: 250ms var(--animation-timing-function);
-    &:hover,
-    &:focus {
+
+  &:hover,
+  &:focus {
     background-color: var(--accent-color);
   }
 }
-
-
-
-

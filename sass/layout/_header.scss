@@ -29,6 +29,7 @@
 
 .menu__item {
   position: relative;
+
   &:not(:last-child) {
     margin-right: 50px;
   }
@@ -41,6 +42,7 @@
   letter-spacing: 0.02em;
   color: #212121;
   transition: 250ms var(--animation-timing-function);
+
   &:hover,
   &:focus {
     color: var(--accent-color);
@@ -49,6 +51,7 @@
 
 .studio-underline {
   color: var(--accent-color);
+
   &::after {
     display: block;
     position: absolute;
@@ -76,6 +79,7 @@
   letter-spacing: 0.02em;
   color: var(--grey-color);
   transition: 250ms var(--animation-timing-function);
+
   &:hover,
   &:focus {
     color: var(--accent-color);
@@ -89,6 +93,7 @@
   letter-spacing: 0.02em;
   color: var(--grey-color);
   transition: 250ms var(--animation-timing-function);
+
   &:hover,
   &:focus {
     color: var(--accent-color);

@@ -333,6 +333,10 @@ body {
   transform: translateY(-50%);
 }
 
+.modal-form-input:focus + .modal-icon {
+  fill: var(--accent-color);
+}
+
 .modal-form {
   display: flex;
   flex-direction: column;
@@ -349,10 +353,6 @@ body {
 .modal-form-input:focus {
   border-color: var(--accent-color);
   outline: none;
-}
-
-.modal-form-input:focus + .modal-icon {
-  fill: var(--accent-color);
 }
 
 .modal-form-message {
@@ -383,6 +383,13 @@ body {
   padding-bottom: 30px;
 }
 
+.modal-form-checkbox-policy {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 .modal-form-checkbox-policy::before {
   display: inline-block;
   vertical-align: middle;
@@ -393,13 +400,6 @@ body {
   border-radius: 2px;
   cursor: pointer;
   margin-right: 7px;
-}
-
-.modal-form-checkbox-policy {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #757575;
 }
 
 .modal-form-policy-link {
